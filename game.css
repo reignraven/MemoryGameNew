@@ -1,0 +1,24 @@
+body{
+	background-image:url('bg1.jpg');
+}
+
+div#memory_board{
+	background:#ff9595;
+	border:#8f0032 20px solid;
+	width:390px;
+	height:550px;
+	padding:10px;
+	margin:0px auto;
+}
+div#memory_board > div{
+	background: url(cute.jpg) no-repeat;
+	border:#8f0032 2px solid;
+	width:30px;
+	height:30px;
+	float:left;
+	margin:5px;
+	padding:33px;
+	font-size:25px;
+	cursor:pointer;
+	text-align:center;
+}
